@@ -1,0 +1,598 @@
+@media (min-width: 576px) {
+
+    .modal-dialog {
+        max-width: 62%;
+    
+        margin: 0 auto;
+    }
+    
+}
+
+
+@media  (max-width: 480px){
+    .payment-bank-icon {
+        margin: 0 2px;
+        width: 22px !important;
+        height: 14px;
+    }
+    .payment-bank-icon__container {
+        height: 25px !important;
+        display: flex;
+       
+    }
+}
+
+
+@media (max-width:576px) {
+    
+
+    // .purchase{
+    //     width: 100% !important;
+    //     margin: 0 -10px !important;
+    //     position: relative;
+    //     bottom: -300px !important;
+    //     box-shadow: none !important;
+    //     padding: 20px 10px !important;
+    // }
+
+    .py-icon{
+        background: url(../img/epiclogo.svg);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: 50%!important;
+        flex-shrink: 0;
+        height: 20px !important;
+        width: 60px;
+    }
+
+    .credit-icon{
+        background: url(../img/creditcart.svg);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: 50%!important;
+        flex-shrink: 0;
+        height: 20px !important;
+        width: 60px;
+    }
+
+    .paypal-icon{
+        background: url(../img/paypal.png);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: 50%!important;
+        flex-shrink: 0;
+        height: 20px !important;
+        width: 60px;
+    }
+
+    .epic-loq, .credit-loq , .paypal-loq{
+        border: 1px solid;
+        border-color: rgb(136, 134, 134);
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px !important;
+    height:28px !important;
+    margin: 0 10px;
+    border-radius: 6px;
+    }
+
+    .caq{
+        font-size: 12px;
+    }
+    .close-mdl-btn{
+        position: absolute;
+        top: 14px !important;
+        right:20px;
+    }
+
+    .wallet-selector , .order-summary{
+        padding: 10px !important;
+    }
+    .payment-wallet-form__btn {
+        width: 100% !important;
+        span{
+            font-size: 10px !important;
+        }
+    }
+    .credit-cart-details, .payment-wallet-form , .paypal-details{
+        padding: 10px 20px !important;
+    }
+
+   
+
+    .crt-d{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:768px) {
+
+    .cart-number-input, .zip-code , .state , .city , .expiration, .cvv{
+        height: 40px !important;
+    }
+
+    .modal-body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .close-mdl-btn{
+        position: absolute;
+        top: 24px;
+        right:20px;
+    }
+
+    .user-sm{
+        margin-right: 30px !important;
+    }
+    
+}
+
+@media (min-width:1199px) {
+
+    .modal-dialog{
+        max-width: 1200px;
+    }
+}
+
+@media (max-width:1199px) {
+    .modal-dialog{
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+
+.paypal-details{
+    padding: 10px 60px;
+    text-align: left;
+
+    .pyp1{
+        font-size: 13px;
+    }
+}
+
+.zip-city{
+
+
+    @media (max-width:768px) {
+
+        .col-4{
+            width: 30% !important;
+        }
+        
+    }
+    @media (min-width:768px) {
+
+        .col-md-4{
+            width: 30% !important;
+        }
+        
+      }
+
+    @media (min-width:992px) {
+
+        .col-lg-4{
+            width: 31%;
+        }
+        
+    }
+
+    margin-top: 10px;
+
+    .zip-code{
+        height: 60px;
+        border: 1px solid ;
+        border-color: rgba(20,20,20,0.16);
+        display: flex;
+        align-items: center;
+        input{
+            width: 96%;
+            padding: 0 20px;
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+        }
+    }
+
+    .state{
+        height: 60px;
+        border: 1px solid ;
+        border-color: rgba(20,20,20,0.16);
+        display: flex;
+        align-items: center;
+        input{
+            width: 96%;
+            padding: 0 20px;
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+        }
+    }
+
+    .city{
+        height: 60px;
+        border: 1px solid;
+        border-color: rgba(20,20,20,0.16);
+        display: flex;
+        align-items: center;
+        input{
+            width: 96%;
+            padding: 0 20px;
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+        }
+    }
+
+}
+
+
+.exp-and-cvv{
+
+    @media (max-width:768px) {
+
+        .col-6{
+            width: 48% !important;
+        }
+        
+    }
+  @media (min-width:992px) {
+
+    .col-lg-6{
+        width: 48%;
+    }
+    
+  }
+  @media (min-width:768px) {
+
+    .col-md-6{
+        width: 48%;
+    }
+    
+  }
+
+
+    margin-top: 10px;
+    .expiration{
+        height: 60px;
+    border: 1px solid;
+    border-color: rgba(20,20,20,0.16);
+    display: flex;
+    align-items: center;
+        input{
+            width: 96%;
+            padding: 0 20px;
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+        }
+    }
+    .cvv{
+        height: 60px;
+    border: 1px solid;
+    border-color: rgba(20,20,20,0.16);
+    display: flex;
+    align-items: center;
+        input{
+            width: 96%;
+            padding: 0 20px;
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+        }
+    }
+}
+
+.cart-number-input{
+    height: 60px;
+    border: 1px solid;
+    border-color: rgba(20,20,20,0.16);
+    display: flex;
+    align-items: center;
+    input{
+        width: 100%;
+        padding: 0 20px;
+        outline: 0;
+        border: 0;
+        background-color: transparent;
+    }
+}
+
+
+
+
+.payment-bank-icon__container {
+    height: 40px;
+    display: flex;
+   
+}
+
+.payment-bank-icon {
+    background-size: contain!important;
+    margin: 0 3px;
+    width: 33px;
+    height: 21px;
+    border-radius: 2px;
+}
+.payment-bank-icon__visa {
+    background: url(../img/visa.png) no-repeat
+}
+
+.payment-bank-icon__discover{
+    background: url(../img/discover.jpg) no-repeat;
+}
+.payment-bank-icon__discover_diners{
+    background: url(../img/diners.png) no-repeat;
+}
+
+.payment-bank-icon__jcb{
+    background: url(../img/jcb.png) no-repeat;
+}
+.payment-bank-icon__amex{
+    background: url(../img/americanex.png) no-repeat;
+}
+
+.payment-bank-icon__master{
+    background: url(../img/mastercard.png) no-repeat;
+}
+
+
+.credit-cart-details{
+    padding: 10px 60px;
+    text-align: left;
+}
+
+.wallet-selector{
+    overflow-y: auto;
+}
+.payment-wallet-form {
+    padding: 20px 55px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.payment-wallet-form__btn {
+    margin-top: 30px;
+    width: auto;
+    padding: 20px 60px;
+}
+
+.payment-btn{
+
+    color: rgba(20,20,20,0.72);
+border: 1px solid rgba(20,20,20,0.52);
+    span{
+        font-size: 12px;
+    }
+    
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: .5px;
+    outline: none;
+    user-select: none;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.modal-body{
+    padding: 0;
+
+}
+
+.wallet-selector {
+    padding: 20px;
+}
+
+.modal-dialog{
+    height: 100%;
+}
+
+.modal-content{
+    height: 100%;
+    border-radius: 0 !important;
+}
+
+.order-summary{
+
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (max-width:768px) and (min-width:576px) {
+
+        // .purchase{
+        //     width: 100% !important;
+        //     margin: 0 -20px !important;
+        //     position: relative;
+        //     bottom: -60% !important;
+        //     box-shadow: none !important;
+        //     padding: 20px 10px !important;
+        // }
+        
+    }
+
+    .purchase{
+        z-index: 20000;
+        width: 100%;
+        // margin: 0 -20px;
+   padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // box-shadow: 0 -4px 4px rgb(0 0 0 / 10%);
+        // background-color: red;
+    //    margin-top: 90px;
+        // position: relative;
+        // position: fixed;
+        // bottom: 0;
+        button{
+            padding: 15px 30px;
+    width: 100%;
+    cursor: not-allowed;
+    opacity: .5!important;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #0078f2;
+    font-size: 12px;
+    line-height: 1.5;
+    height: 60px;
+        }
+    }
+
+    .creator-i{
+        margin-bottom: 20px;
+    }
+
+    .creator-input{
+        width: 100%;
+
+       border: 1px solid #c9bcbc99;
+        background-color: transparent;
+        padding: 5px 15px;
+    }
+    .order-price{
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+    background-color: #f2f2f2;
+    padding: 20px;
+.game-box{
+    margin-top: 7px;
+}
+    .game-box{
+        img{
+            border-radius: 4px !important;
+        }
+        h6{
+            font-size: 15px;
+        }
+        .game-pr{
+            font-size: 11px;
+            margin-bottom: 0 !important;
+        }
+    }
+    .mdl-title{
+        
+        font-weight: 500;
+    }
+
+    i{
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+
+.wallet-selector{
+
+    .epic-games-wallet{
+        margin-bottom: 12px;
+    }
+
+  
+
+    .epic-loq, .credit-loq , .paypal-loq{
+        border: 1px solid;
+        border-color: rgb(136, 134, 134);
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 38px;
+    margin: 0 20px;
+    border-radius: 6px;
+    }
+    .py-icon{
+        background: url(../img/epiclogo.svg);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: 50%!important;
+        flex-shrink: 0;
+        height: 25px;
+        width: 60px;
+    }
+
+    .credit-icon{
+        background: url(../img/creditcart.svg);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: 50%!important;
+        flex-shrink: 0;
+        height: 25px;
+        width: 60px;
+    }
+
+    .paypal-icon{
+        background: url(../img/paypal.png);
+        background-size: contain!important;
+        background-repeat: no-repeat!important;
+        background-position: 50%!important;
+        flex-shrink: 0;
+        height: 25px;
+        width: 60px;
+    }
+
+
+    .checkbox-round{
+        width: 1.5em;
+        height: 1.5em;
+        background-color: transparent;
+        border-radius: 50%;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+    }
+
+    .title{
+        border-bottom: 3px solid;
+        border-color: #0078f2;
+     
+    }
+
+    .wallet-title{
+        padding:15px 0;
+    }
+
+    .wallet-cart{
+        background-color: #f2f2f2;
+        border-radius: 6px;
+    }
+
+    .cart-selector{
+        padding: 15px;
+        padding-left: 15px;
+    }
+    .usr-name{
+        color: #0078f2;
+        font-size: 11px;
+        font-weight: 500;
+        margin-bottom: 0 !important;
+        margin-top: 6px;
+
+    }
+    .mdl-title{
+    
+        font-weight: 500;
+    }
+
+    .payment-icon path{
+       fill: #0078f2;
+    }
+    .payment-icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .user-ic{
+        width: 20px;
+        height: 30px;
+    }
+}

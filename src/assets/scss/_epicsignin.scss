@@ -1,0 +1,117 @@
+.epic-sign-in{
+    height: 100% !important;
+    width: 100%;
+    
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow-y: auto;
+
+.box{
+
+    margin-top: 155px;
+    margin-bottom: 155px;
+    margin-left: 25px;
+    margin-right: 25px;
+  //   overflow-y: hidden;
+      width: 470px;
+      height: 659px;
+      background-color: #202020;
+
+  }
+
+  .main-box{
+    padding: 55px 55px 60px;
+}
+
+.ljiSme {
+        width: 50px;
+        height: 50px;
+        margin-left: 3px;
+        margin-right: 3px;
+        transform: translateY(2px);
+    }
+
+    .bEiEtT {
+        margin-bottom: 30px;
+    }
+
+    .jUHlxN {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);}
+
+    .sign-title{
+        font-size: 1.125rem;
+        color: #fff;
+        font-weight: 500;
+    line-height: 1.5625rem;
+    letter-spacing: 0.5px;
+    }
+
+    .form-control{
+        background-color: transparent;
+        border: 1px solid #ced4da6b;
+        color: #fff;
+        padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+    }
+
+    .form-control:focus {
+        color: #fff;
+        // background-color: #fff;
+        // border-color: transparent;
+        outline: 0;
+        box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+    }
+
+    .submit-form{
+        margin-top: 20px;
+    }
+
+    .t-1, .t-2{
+        font-size: 14px;
+    }
+
+    .t-2{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .t-3{
+        color: #fff;
+       text-decoration:underline;
+       cursor: pointer;
+       font-size: 14px;
+    }
+
+    .t-4{
+        text-decoration: underline;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .t-5{
+        color: #ffffffb8;
+        font-size: 14px;
+  
+    }
+
+    .btnSubmit{
+        width: 100%;
+
+        color: #fff;
+        background-color: #0074E4;
+        border-radius: 4px !important;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 20px 20px;
+    }
+
+}

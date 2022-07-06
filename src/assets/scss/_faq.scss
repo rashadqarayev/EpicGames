@@ -1,0 +1,51 @@
+.faq{
+    background-color: #fff;
+    overflow-y: auto;
+   .italic{
+    font-style: italic;
+   }
+.main-title{
+
+    color: #4c4c4e;
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+   p{
+    font-size: 15px;
+   }
+
+   .col-12{
+        color: #4c4c4e;
+   }
+    h1{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.1;
+        color: #333333;
+    }
+    .container{
+        max-width: 62%;
+    }
+    
+    @media (max-width:1023px) {
+        .container{
+            max-width: 95%;
+        }
+        p{
+            font-size: 13px;
+        }
+    
+        
+    }
+    
+    @media (min-width:1023px) and (max-width:1133px) {
+        .container{
+            max-width: 90%;
+        }
+    
+    
+        
+    
+    }
+}

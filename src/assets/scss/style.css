@@ -1,0 +1,26 @@
+@import url(./_navbar.scss);
+@import url(./_footer.scss);
+@import url(./_home.scss);
+@import url(./_faq.scss);
+@import url(./_help.scss);
+@import url(./_gamedetails.scss);
+@import url(./_newsdetails.scss);
+@import url(./_basket.scss);
+@import url(./_wishlist.scss);
+@import url(./_modal.scss);
+@import url(./_sign.scss);
+@import url(./_signin.scss);
+@import url(./_carousel.scss);
+@import url(./_epicsignin.scss);
+@import url(./_epicregister.scss);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

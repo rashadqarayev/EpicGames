@@ -1,0 +1,130 @@
+.epic-register{
+    height: 100% !important;
+    width: 100%;
+    
+    text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow-y: auto;
+
+.box{
+
+    margin-top:35px;
+    margin-bottom: 55px;
+    margin-left: 25px;
+    margin-right: 25px;
+  //   overflow-y: hidden;
+      width: 470px;
+      height: 970px;
+      background-color: #202020;
+
+  }
+
+
+  .main-box{
+    padding: 55px 55px 60px;
+}
+
+.bEiEtT {
+    margin-bottom: 30px;
+}
+
+.jUHlxN {
+display: flex;
+flex-direction: column;
+-webkit-box-align: center;
+align-items: center;
+color: rgb(255, 255, 255);}
+
+.ljiSme {
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+    margin-right: 3px;
+    transform: translateY(2px);
+}
+
+.sign-title{
+    font-size: 1.125rem;
+    color: #fff;
+    font-weight: 500;
+line-height: 1.5625rem;
+letter-spacing: 0.5px;
+}
+
+
+.col-6{
+    width: 48% !important;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 1px solid #ced4da6b;
+    color: #fff;
+    padding-top: 20px;
+padding-bottom: 20px;
+
+
+}
+
+.form-control:focus {
+    color: #fff;
+    // background-color: #fff;
+    // border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+
+.submit-form{
+    margin-top: 20px;
+}
+
+.t-1{
+    color: #ffffffb8;
+    margin-bottom: 0;
+    text-align: left;
+    // font-size: 0.875rem;
+  font-size: 15px !important;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.2px;
+}
+
+.t-2{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btnSubmit{
+    width: 100%;
+
+    color: #fff;
+    background-color: #0074E4;
+    border-radius: 4px !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 20px 20px;
+}
+.t-3{
+    color: #fff;
+   text-decoration:underline;
+   cursor: pointer;
+   font-size: 14px;
+}
+
+
+.t-4{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.t-5{
+    color: #ffffffb8;
+    font-size: 14px;
+    margin-bottom: 2px !important;
+}
+
+}

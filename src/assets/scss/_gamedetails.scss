@@ -1,0 +1,563 @@
+.game-details{
+
+    
+    h1{
+        color: #fff;
+        line-height: 55px;
+letter-spacing: -1px;
+font-weight: 400;
+margin-bottom: 30px;
+    }
+    .left-sidebar{
+
+       .bd{
+        border-left: 1px solid #f5f5f54b;
+       }
+        .privacy{
+            color: #f5f5f599;
+            font-size: 16px;
+        }
+
+        .pv{
+            color: #f5f5f5;
+        }
+        .spf{
+            color: #f5f5f5;
+            font-weight: 400;
+            font-size: 24px;
+            margin-bottom: 10px !important;
+        }
+        .sp{
+            background-color: #262626;
+            border-radius: 4px !important;
+            margin-bottom: 90px !important;
+        
+.specifications{
+    padding: 35px 60px;
+    .min-max{
+        color: #f5f5f599;
+    }
+
+    .system-type{
+        color: #f5f5f599;
+        margin-bottom: 0 !important;
+    }
+
+    .system{
+        color: #f5f5f5;
+    }
+}
+        }
+        img{
+            border-radius: 4px !important;
+        }
+        width: 75%;
+
+        .about-text{
+            color: #f5f5f5;
+            font-size: 22px;
+        }
+
+        .gnr-text{
+            color: #f5f5f599;
+            margin-bottom: 0 !important;
+        }
+        .genre-text{
+            color: #f5f5f5;
+            text-decoration: underline;
+        }
+        .inform-title{
+            color: #f5f5f5;
+        }
+
+        .inform-text{
+            color: #f5f5f5;
+        }
+
+        .about-txt,.text-2,.text-3{
+            color: #f5f5f599;
+        }
+       
+    }
+
+    .right-sidebar{
+
+        
+        .wn-logo{
+            justify-content: end;
+            height: 20px;
+            width: 20px;
+            position: relative;
+            right: -80%;
+        }
+        hr{
+            width: 93% ;
+            margin: auto;
+            opacity: 0.2;
+        }
+        .info{
+            color: #f5f5f599;
+            margin-bottom: 0 !important;
+        }
+
+        .info-name{
+            color: #f5f5f5;
+                    }
+        .mtr-txt{
+            color: #f5f5f5;
+            margin-bottom: 0 !important;
+            font-weight: 700;
+        }
+
+        .mtr-text{
+            float: left;
+            color: #f5f5f599;
+            font-size: 15px !important;
+            margin-bottom: 0 !important ;
+        }
+
+        .game-price{
+            color: #f5f5f5;
+            margin-top: 10px;
+        }
+
+        .btn-watch{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(203, 57, 42);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+  
+        .btn-danger{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(139, 0, 0);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-rdr{
+      
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(227, 50, 45);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-f1{
+      
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(65, 156, 43);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-bf{
+      
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(0, 116, 228);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-dl{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(255, 2, 8);
+
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-add-to-cart{
+            width: 100%;
+            color: #fff;
+            color: rgb(245, 245, 245);
+    border: 1px solid rgba(245, 245, 245, 0.6);
+    height: 50px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+
+        }
+        
+
+        .btn-add-to-wishlist{
+            width: 100%;
+            color: #fff;
+            color: rgb(245, 245, 245);
+    border: 1px solid rgba(245, 245, 245, 0.6);
+    height: 36px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+
+        }
+
+        .btn-new{
+            color: #f5f5f5;
+                background-color: #ffffff1a;
+                border-radius: 4px;
+                font-size: 13px;
+                padding: 5px 10px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+               
+        }
+        width: 22%;
+        max-height: 710px;
+
+        .logo{
+            padding: 20px;
+            border-radius: 4px !important;
+        }
+    }
+
+    .right-sidebar-fixed{
+
+        .btn-watch{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(203, 57, 42);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+  
+        .btn-danger{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(139, 0, 0);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-rdr{
+      
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(227, 50, 45);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-f1{
+      
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(65, 156, 43);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-bf{
+      
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(0, 116, 228);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-dl{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(255, 2, 8);
+
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+
+        position: sticky;
+        top: 10px;
+
+        .wn-logo{
+            justify-content: end;
+            height: 20px;
+            width: 20px;
+            position: relative;
+            right: -80%;
+        }
+        hr{
+            width: 93% ;
+            margin: auto;
+            opacity: 0.2;
+        }
+        .info{
+            color: #f5f5f599;
+            margin-bottom: 0 !important;
+        }
+
+        .info-name{
+            color: #f5f5f5;
+                    }
+        .mtr-txt{
+            color: #f5f5f5;
+            margin-bottom: 0 !important;
+            font-weight: 700;
+        }
+
+        .mtr-text{
+            float: left;
+            color: #f5f5f599;
+            font-size: 15px !important;
+            margin-bottom: 0 !important ;
+        }
+
+        .game-price{
+            color: #f5f5f5;
+            margin-top: 10px;
+        }
+
+        .btn-danger{
+            width: 100%;
+            min-width: auto;
+            background-color: rgb(139, 0, 0);
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            height: 50px;
+            font-size: 14px;
+            line-height: 15px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+        .btn-add-to-cart{
+            width: 100%;
+            color: #fff;
+            color: rgb(245, 245, 245);
+    border: 1px solid rgba(245, 245, 245, 0.6);
+    height: 50px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+
+        }
+        
+
+        .btn-add-to-wishlist{
+            width: 100%;
+            color: #fff;
+            color: rgb(245, 245, 245);
+    border: 1px solid rgba(245, 245, 245, 0.6);
+    height: 36px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+
+        }
+
+        .btn-new{
+            color: #f5f5f5;
+                background-color: #ffffff1a;
+                border-radius: 4px;
+                font-size: 13px;
+                padding: 5px 10px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+               
+        }
+        width: 22%;
+        max-height: 710px;
+
+        .logo{
+            padding: 20px;
+            border-radius: 4px !important;
+        }
+    }
+    hr{
+        color: rgb(204, 204, 204);
+    }
+    .container{
+        max-width: 75%;
+    }
+    .esas{
+        display: flex;
+    }
+    @media (max-width:1023px) {
+            .container{
+                max-width: 98% !important;
+            }
+    }
+    
+    @media (min-width:1023px) and (max-width:1133px) {  
+        .container{
+            max-width: 98% !important;
+        }
+    }
+
+    .mf-main{
+        display: none;
+    }
+
+    @media (max-width:768px) {
+
+        .specifications{
+            padding: 35px 20px !important;
+        }
+
+        .system{
+            font-size: 12px;
+        }
+
+        .sp{
+            width: 100% !important;
+            .privacy{
+                font-size: 12px !important;
+            }
+        }
+
+        .logo {
+           padding: 0 !important;
+        }
+
+        .gm-name{
+            margin-bottom: 0 !important;
+        }
+
+        .left-sidebar{
+            width: 100%;
+        }
+
+        .right-sidebar{
+            width: 100%;
+            max-height: 930px;
+           margin-bottom: 20% !important;
+        }
+
+        .esas{
+            flex-direction: column-reverse;
+        }
+
+        .wn-logo{
+        
+            height: 20px;
+            width: 20px;
+            position: relative;
+            right: -90% !important;
+        }
+
+        hr{
+            width: 96% !important;
+        }
+
+        .mtr-logo{
+            width: 100px;
+        }
+
+        .right-side-img{
+            display: none;
+        }
+
+        .mf-main{
+            display: block;
+        }
+        
+    }
+
+    @media (max-width:576px) {
+       
+        .privacy{
+            font-size: 11px !important;
+        }
+
+         .right-sidebar{
+            width: 100%;
+            max-height: 930px;
+           margin-bottom: 10% !important;
+        }
+
+       .logo {
+            padding: 0 !important;
+         }
+    }
+
+    @media (min-width:768px) and (max-width:992px) {
+
+        .specifications{
+            padding: 35px 20px !important;
+        }
+        .about-text{
+            font-size: 16px !important;
+        }
+        .left-sidebar{
+            width: 65%;
+        }
+        .right-sidebar,.right-sidebar-fixed{
+            width: 30%;
+        }
+
+        .sp{
+            width: 150%;
+        }
+        
+    }
+
+}
+
